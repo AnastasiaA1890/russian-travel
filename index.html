@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
@@ -32,7 +32,7 @@
     <!-- Секция intro -->
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
-      <article class="intro__text">
+      <p class="intro__text">
         По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной
         стране.
         Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми
@@ -41,7 +41,7 @@
         например, Вера Башмакова — смелая молодая мама,
         которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы
         выбрали и описали некоторые интересные места, достойные вашего отпуска.
-      </article>
+      </p>
       <ul class="intro__list">
         <li class="intro__list-item">
           <span class="intro__span-accent">Часовых поясов</span>
@@ -65,8 +65,8 @@
         </li>
       </ul>
     </section>
-    <!-- Секция photo-grid -->
-    <section class="photo-grid">
+    <!-- Блок photo-grid -->
+    <div class="photo-grid">
       <div class="photo-grid__item">
         <img src="././images/photo-grid-train.jpg" alt="Вагон поезда" class="photo-grid__item-img">
       </div>
@@ -103,11 +103,12 @@
       <div class="photo-grid__item">
         <img src="././images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item-img">
       </div>
-    </section>
+    </div>
     <!-- Секция places -->
     <section class="places">
       <div class="place">
-        <h2 class="place__title">Куршская коса</h2>
+        <h2 class="place__title">Куршская
+          коса</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
           <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
