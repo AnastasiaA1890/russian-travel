@@ -27,5 +27,6 @@
     line-height: 109%;
     width: 90%;
     margin: 0 auto;
+    white-space: normal;
   }
 }
