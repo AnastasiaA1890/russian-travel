@@ -8,24 +8,20 @@
 
 </p>
 
-## Описание
+## Description
 
-Данный проект реализован в рамках обучения программы "Веб разработчик" Яндекса.  
-Сайт реализован на HTML5 и CSS3. Примененные технологии:
-* гибкая система раскладки блоков Flex
-* гибкая система раскладки блоков Grid
-* резиновая и адаптивная верстки для десктопных версий, планшетов и смартфонов
-* технология transform
+This project was implemented as part of the Yandex Web Developer training program.
+The site is implemented in HTML5 and CSS3. Applied technologies:
+* flexible block layout system Flex
+* flexible Grid layout system
+* rubber and adaptive layout for desktop versions, tablets and smartphones
+* transform technology
 
-## План по доработке
-
-Планируется реализовать увеличение картинок с помощью java script
-
-## Демо сайта
+## Demo
 
 <p align="center">
 
-[Ссылка на проект](https://anastasiaa1890.github.io/russian-travel/index.html)
+[Link](https://anastasiaa1890.github.io/russian-travel/index.html)
 
 <img src="https://i.postimg.cc/76SNkSZm/Group-5.jpg" >
 
